@@ -79,11 +79,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 console.log(`The number of unique ip addresses is: ${uniqueIpCount}`);
-console.log(
-	`The top 3 most visited URLs are: ${topUrls[0]}, ${topUrls[1]} and ${topUrls[2]}`
-);
-console.log(
-	`The top 3 most active IPs are: ${topIps[0]}, ${topIps[1]} and ${topIps[2]}`
-);
+console.log(`The top 3 most visited URLs are: ${topUrls[0]}, ${topUrls[1]} and ${topUrls[2]}`);
+console.log(`The top 3 most active IPs are: ${topIps[0]}, ${topIps[1]} and ${topIps[2]}`);
 
 module.exports = { uniqueIpCount, ipCount, topUrls, topIps };
